@@ -5,8 +5,9 @@
     <title>温带反气旋的发布页 | wdfqx - release</title>
 	<meta name="description" content="温带反气旋的发布页，收录永久地址、镜像地址及联系信息，方便访问和下载。">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="https://cdn.jsdelivr.net/gh/wdfqx/img/icon/logo.ico" type="image/x-icon">
-    <style>/* 使用系统字体栈，不引用任何网络字体 */
+    <style>
 	body {
 	  font-family: unset; !important
   	font-size: 16px;
@@ -22,7 +23,7 @@
 	  margin-right: auto;
 	}
 
-	/* 标题 */
+	
 	h1, h2, h3, h4, h5, h6 {
 	  font-weight: 700;
 	  line-height: 1.2;
@@ -31,7 +32,7 @@
 	  cursor: text;
 	}
 
-	/* 具体字体大小 */
+	
 	h1 { font-size: 2.25rem; border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
 	h2 { font-size: 1.75rem; border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
 	h3 { font-size: 1.5rem; }
@@ -39,21 +40,32 @@
 	h5 { font-size: 1rem; }
 	h6 { font-size: 1rem; color: #777; }
 
-	/* 段落 */
+	
 	p {
 	  margin: 0.8em 0;
 	}
 
-	/* 链接 */
+	
 	a {
-	  color: #4183c4;
+	  
+	  color: #0047ab; 
 	  text-decoration: none;
+	  font-weight: 500; 
 	}
 	a:hover {
 	  text-decoration: underline;
+	  text-decoration-thickness: 2px; 
 	}
 
-	/* 代码块和内联代码 */
+	
+	@media (prefers-color-scheme: dark) {
+	  a {
+	    
+	    color: #00b7eb; 
+	  }
+	}
+
+	
 	code, pre {
 	  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 	  background-color: #f8f8f8;
@@ -69,13 +81,13 @@
 	  margin: 1em 0;
 	}
 
-	/* 列表 */
+	
 	ul, ol {
 	  padding-left: 30px;
 	  margin: 0.8em 0;
 	}
 
-	/* 引用 */
+	
 	blockquote {
 	  border-left: 4px solid #dfe2e5;
 	  color: #777;
